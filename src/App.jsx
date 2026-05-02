@@ -12,7 +12,7 @@ import Navbar from "./components/Navbar";
 import Homepage from "./pages/Homepage";
 import Browse from "./pages/Browse";
 import Login from "./pages/Login";
-import { Link, Routes, Route } from "react-router-dom";
+import { Links, Routes, Route } from "react-router-dom";
 
 function App() {
 
