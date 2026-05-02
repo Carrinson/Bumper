@@ -12,7 +12,7 @@ import Navbar from "./components/Navbar";
 import Homepage from "./pages/Homepage";
 import Browse from "./pages/Browse";
 import Login from "./pages/Login";
-import { Links, Routes, Route } from "react-router-dom";
+import { Link, Routes, Route } from "react-router-dom";
 
 function App() {
 
@@ -22,7 +22,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Homepage/>}/>
-        <Route path="/login" element={<Login/>} ></Route>
+        <Route path="/login" element={<Login/>}/>
+        <Route path="/callback" element={<Login/>}/> {/* add this */}
         <Route path="/browse" element={<Browse/>}/>
       </Routes>
     </>
