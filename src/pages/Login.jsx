@@ -294,7 +294,7 @@ const UserContentPage = ({ token, onLogout }) => {
   );
 };
 
-const App = () => {
+const Login = () => {
   const [token, setToken] = useState('');
   const [loading, setLoading] = useState(false);
 
@@ -409,4 +409,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Login;
