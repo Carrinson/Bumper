@@ -6,5 +6,8 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: true
-  }
+  },
+  resolve: {
+    dedupe: ['react-router-dom', 'react', 'react-dom']
+  } 
 })
